@@ -28,19 +28,19 @@ I build practical troubleshooting labs, diagnostic tools, and support runbooks t
 
 ## 🚀 Portfolio Projects
 
-### 🧪 [Database Sync Debug Lab](https://github.com/mabella1/database-sync-debug-lab)
+### 🧪 [Database Sync Debug Lab](https://github.com/musabe/database-sync-debug-lab)
 
 Simulates real-world database sync failures — schema drift, incremental cursor issues, duplicate records, and slow queries — using PostgreSQL + Docker.
 
-### 🛠️ [Connector Support Toolkit](https://github.com/mabella1/connector-support-toolkit)
+### 🛠️ [Connector Support Toolkit](https://github.com/musabe/connector-support-toolkit)
 
 CLI diagnostic tool to validate database connector readiness across connectivity, permissions, CDC, and JDBC checks. Outputs results to terminal or JSON.
 
-### 🔌 [API Integration Troubleshooting Lab](https://github.com/mabella1/api-integration-troubleshooting-lab)
+### 🔌 [API Integration Troubleshooting Lab](https://github.com/musabe/api-integration-troubleshooting-lab)
 
 Hands-on debugging of REST APIs, OAuth flows, webhooks, and payload failures.
 
-### 📚 [Support Runbook Library](https://github.com/mabella1/support-runbook-library)
+### 📚 [Support Runbook Library](https://github.com/musabe/support-runbook-library)
 
 Structured troubleshooting guides, escalation templates, and real-world RCA workflows.
 
@@ -74,4 +74,4 @@ Structured troubleshooting guides, escalation templates, and real-world RCA work
 Senior Technical Support Engineer
 Focused on API-driven SaaS, data integration, and developer-facing support
 
-[github.com/mabella1](https://github.com/mabella1)
+[github.com/mabella1](https://github.com/usabe)
