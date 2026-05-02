@@ -1,4 +1,3 @@
-
 # 👋 Mustapha Abella
 
 > Senior Technical Support Engineer evolving into a developer-support hybrid — building labs, tools, and runbooks that turn real-world failures into repeatable workflows.
@@ -11,7 +10,13 @@
 
 ## 🎯 Overview
 
-I build practical troubleshooting labs, diagnostic tools, and support runbooks that reproduce real-world failures, reduce escalation time, and transform recurring issues into repeatable workflows. My focus is bridging senior technical support with hands-on engineering across API-driven SaaS, database troubleshooting, and data integration debugging.
+I build practical troubleshooting labs, diagnostic tools, and support runbooks that reproduce real-world failures, reduce escalation time, and transform recurring issues into repeatable workflows.
+
+My focus is bridging senior technical support with hands-on engineering across:
+- data pipelines  
+- API-driven SaaS integrations  
+- database troubleshooting  
+- developer-facing support tooling  
 
 ---
 
@@ -30,30 +35,65 @@ I build practical troubleshooting labs, diagnostic tools, and support runbooks t
 
 ### 🧪 [Database Sync Debug Lab](https://github.com/musabe/database-sync-debug-lab)
 
-Simulates real-world database sync failures — schema drift, incremental cursor issues, duplicate records, and slow queries — using PostgreSQL + Docker.
+Production-style data pipeline simulation demonstrating real-world failure modes and fixes:
+
+- Implemented incremental sync using **compound cursor (timestamp + id)**
+- Resolved **stale data bug** using upsert conflict handling
+- Fixed **timestamp collision issue** preventing missed records
+- Simulated performance degradation and indexing fixes
+- Documented full debugging lifecycle (issue → RCA → fix → validation)
+
+👉 Demonstrates data pipeline reliability, correctness, and debugging at production level
+
+---
 
 ### 🛠️ [Connector Support Toolkit](https://github.com/musabe/connector-support-toolkit)
 
-CLI diagnostic tool to validate database connector readiness across connectivity, permissions, CDC, and JDBC checks. Outputs results to terminal or JSON.
+CLI diagnostic tool for validating database connector readiness:
+
+- Database connectivity checks
+- Schema and primary key validation
+- Permission diagnostics
+- Performance risk detection
+
+👉 Focus: developer-facing support tooling for data platforms
+
+---
 
 ### 🔌 [API Integration Troubleshooting Lab](https://github.com/musabe/api-integration-troubleshooting-lab)
 
-Hands-on debugging of REST APIs, OAuth flows, webhooks, and payload failures.
+Hands-on debugging of real-world integration failures:
+
+- OAuth authentication issues
+- Webhook delivery failures
+- Payload validation errors
+- Timeout and retry scenarios
+
+👉 Demonstrates API-level debugging and integration troubleshooting
+
+---
 
 ### 📚 [Support Runbook Library](https://github.com/musabe/support-runbook-library)
 
-Structured troubleshooting guides, escalation templates, and real-world RCA workflows.
+Structured knowledge base for real-world support scenarios:
+
+- Root cause analysis (RCA) templates
+- Debugging workflows
+- Customer escalation playbooks
+- Incident response patterns
+
+👉 Focus: operational excellence and repeatable troubleshooting
 
 ---
 
 ## 🧰 Tech Stack
 
-- **Languages** — Python, SQL, Bash
-- **Databases** — PostgreSQL, MSSQL
-- **Infrastructure** — Docker, Docker Compose, Linux
-- **APIs & Integrations** — REST APIs, Webhooks, OAuth, Postman
-- **CI/CD & Tooling** — GitHub Actions, Azure CI/CD, Git
-- **Docs** — Markdown, Runbooks, RCA templates
+- **Languages** — Python, SQL, Bash  
+- **Databases** — PostgreSQL, MSSQL  
+- **Infrastructure** — Docker, Docker Compose, Linux  
+- **APIs & Integrations** — REST APIs, Webhooks, OAuth, Postman  
+- **CI/CD & Tooling** — GitHub Actions, Azure CI/CD, Git  
+- **Core Focus** — Data Pipelines, Debugging, RCA  
 
 ---
 
@@ -61,17 +101,17 @@ Structured troubleshooting guides, escalation templates, and real-world RCA work
 
 | Project | Status |
 |---|---|
-| Database Sync Debug Lab | 🔄 In Progress |
-| Connector Support Toolkit | ✅ Active |
-| API Integration Troubleshooting Lab | 🔜 Planned |
-| Support Runbook Library | 🔜 Planned |
+| Database Sync Debug Lab | ✅ Active |
+| Connector Support Toolkit | 🔄 In Progress |
+| API Integration Troubleshooting Lab | 🔄 In Progress |
+| Support Runbook Library | 🔄 In Progress |
 
 ---
 
 ## 👤 Author
 
-**Mustapha Abella**
-Senior Technical Support Engineer
-Focused on API-driven SaaS, data integration, and developer-facing support
+**Mustapha Abella**  
+Senior Technical Support Engineer  
+Focused on data integration, debugging, and developer-facing support  
 
-[github.com/mabella1](https://github.com/usabe)
+👉 https://github.com/musabe
