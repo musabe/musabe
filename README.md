@@ -14,11 +14,11 @@ I build practical troubleshooting labs, diagnostic tools, and support runbooks t
 I approach problems like an engineer: reproduce the issue, isolate the failure point, validate with data, implement a reliable fix, and document it for reuse.
 
 My focus is bridging senior technical support with hands-on engineering across:
-- data pipelines  
-- API-driven SaaS integrations  
-- database troubleshooting  
-- developer-facing support tooling  
-- **platform reliability and production debugging in distributed systems**
+- data pipelines
+- API-driven SaaS integrations
+- database troubleshooting
+- developer-facing support tooling
+- platform reliability and production debugging in distributed systems
 
 ---
 
@@ -30,6 +30,7 @@ My focus is bridging senior technical support with hands-on engineering across:
 - Docker-based reproduction environments
 - Developer-facing support tooling
 - AI-assisted debugging workflows
+- Production incident debugging and integration reliability
 
 ---
 
@@ -42,10 +43,10 @@ Hands-on debugging of real-world integration failures:
 - Webhook delivery failures
 - Payload validation errors
 - Timeout and retry scenarios
-- **Duplicate webhook handling (idempotency)**
+- Duplicate webhook handling (idempotency)
 
 👉 Demonstrates API-level debugging and integration troubleshooting  
-💡 Cuts integration failure diagnosis time by reproducing OAuth, webhook, and timeout failures in a controlled, repeatable environment.
+💡 Reduces integration failure diagnosis time by reproducing OAuth, webhook, idempotency, and timeout issues in a controlled, repeatable environment.
 
 ---
 
@@ -111,11 +112,13 @@ Structured knowledge base for real-world support scenarios:
 
 ---
 
+I'm particularly interested in roles at the intersection of engineering and support, where I can improve integration reliability and reduce production incidents at scale.
+
+---
+
 ## 👤 Author
 
 **Mustapha Abella**  
 Senior Technical Support Engineer  
 Focused on data integration, debugging, and developer-facing support  
 👉 https://github.com/musabe
-
-I'm particularly interested in roles at the intersection of engineering and support, where I can improve integration reliability and reduce production incidents at scale.
