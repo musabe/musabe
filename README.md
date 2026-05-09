@@ -36,7 +36,21 @@ My focus is bridging senior technical support with hands-on engineering across:
 
 ## 🚀 Portfolio Projects
 
-### 🔌 ⭐ [API Integration Troubleshooting Lab](https://github.com/musabe/api-integration-troubleshooting-lab)
+### 🤖 ⭐ [AI Support Triage Engine](https://github.com/musabe/support-triage-engine) ← NEW
+
+LLM-powered ticket classification engine that automates the first-pass triage of incoming support tickets:
+- Classifies severity (CRITICAL / HIGH / MEDIUM / LOW) at 95% confidence
+- Maps tickets to categories and runbooks automatically
+- REST API + Freshdesk webhook integration
+- Full audit trail persisted to PostgreSQL
+- Live web dashboard with severity breakdown and classification log
+
+👉 Demonstrates AI-assisted support tooling, API design, and production-grade Python  
+💡 Eliminates manual ticket routing — classifies and routes tickets in under 3 seconds with actionable next steps.
+
+---
+
+### 🔌 [API Integration Troubleshooting Lab](https://github.com/musabe/api-integration-troubleshooting-lab)
 
 Hands-on debugging of real-world integration failures:
 - OAuth authentication issues
@@ -92,12 +106,13 @@ Structured knowledge base for real-world support scenarios:
 
 ## 🧰 Tech Stack
 
-- **Languages** — Python, SQL, Bash  
-- **Databases** — PostgreSQL, MSSQL  
-- **Infrastructure** — Docker, Docker Compose, Linux  
-- **APIs & Integrations** — REST APIs, Webhooks, OAuth, Postman  
-- **CI/CD & Tooling** — GitHub Actions, Azure CI/CD, Git  
-- **Core Focus** — Data Pipelines, Debugging, RCA  
+- **Languages** — Python, SQL, Bash
+- **Databases** — PostgreSQL, MSSQL
+- **Infrastructure** — Docker, Docker Compose, Linux
+- **APIs & Integrations** — REST APIs, Webhooks, OAuth, Bruno
+- **AI & LLMs** — Claude API, prompt engineering, structured output parsing
+- **CI/CD & Tooling** — GitHub Actions, Azure CI/CD, Git
+- **Core Focus** — Data Pipelines, Debugging, RCA
 
 ---
 
@@ -105,6 +120,7 @@ Structured knowledge base for real-world support scenarios:
 
 | Project | Status |
 |---|---|
+| AI Support Triage Engine | ✅ Active |
 | API Integration Troubleshooting Lab | ✅ Active |
 | Database Sync Debug Lab | ✅ Active |
 | Connector Support Toolkit | ✅ Active |
@@ -118,7 +134,7 @@ I'm particularly interested in roles at the intersection of engineering and supp
 
 ## 👤 Author
 
-**Mustapha Abella**  
-Senior Technical Support Engineer  
-Focused on data integration, debugging, and developer-facing support  
+**Mustapha Abella**
+Senior Technical Support Engineer
+Focused on data integration, debugging, and developer-facing support
 👉 https://github.com/musabe
