@@ -1,219 +1,141 @@
-# 👋 Mustapha Abella
+# Mustapha Abella
 
-> Senior Technical Support Engineer specializing in API integration debugging, distributed systems, and production troubleshooting — building labs, tools, and workflows that turn real-world failures into repeatable engineering solutions.
+> **Operational Reliability & Platform Support Engineer**
+> Diagnosing production failures · Building diagnostic tooling · Reducing escalation time
 
-![Focus](https://img.shields.io/badge/focus-Data%20Integration-blue?style=flat-square)
-![Stack](https://img.shields.io/badge/stack-Python%20%7C%20PostgreSQL%20%7C%20Docker-green?style=flat-square)
-![Status](https://img.shields.io/badge/portfolio-actively%20building-brightgreen?style=flat-square)
-
----
-
-## 🎯 Overview
-
-I build practical troubleshooting labs, diagnostic tools, and operational workflows that reproduce real-world failures, reduce escalation time, and improve production reliability.
-
-My approach combines senior technical support with hands-on engineering:
-- reproduce the issue
-- isolate the failure point
-- validate with data
-- implement a reliable fix
-- document the solution for reuse
-
-My work focuses on bridging support and engineering across:
-- API-driven SaaS integrations
-- distributed systems troubleshooting
-- data pipeline reliability
-- developer-facing tooling
-- operational automation
-- AI-assisted support workflows
-- production debugging and RCA
+[![Specialization](https://img.shields.io/badge/specialization-Operational%20Reliability-0A66C2?style=flat-square&logo=databricks&logoColor=white)](https://github.com/musabe)
+[![Focus](https://img.shields.io/badge/focus-Incident%20Diagnostics%20%7C%20Integration%20Reliability-1DB954?style=flat-square)](https://github.com/musabe)
+[![Stack](https://img.shields.io/badge/stack-Python%20%7C%20PostgreSQL%20%7C%20Docker-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/musabe)
+[![AI Tooling](https://img.shields.io/badge/AI--assisted-Support%20Triage-FF6B35?style=flat-square&logo=anthropic&logoColor=white)](https://github.com/musabe)
+[![Status](https://img.shields.io/badge/portfolio-actively%20building-brightgreen?style=flat-square)](https://github.com/musabe)
 
 ---
 
-## 🎯 Target Roles
+## 🧭 Engineering Identity
 
-- Technical Support Engineer
-- Support Engineer
-- Developer Support Engineer
-- Integration Engineer
-- Solutions Engineer
-- Platform Support Engineer
-- Technical Solutions Engineer
+I sit at the intersection of **platform engineering** and **operational support** — building the tooling, workflows, and diagnostics that keep production systems reliable and support teams scalable.
 
----
+My work is rooted in a core methodology:
 
-## 🔧 Focus Areas
+```
+Reproduce the failure → Isolate the root cause → Validate the fix → Document for reuse
+```
 
-- REST API and webhook debugging
-- SQL & database troubleshooting (PostgreSQL, MSSQL)
-- OAuth and authentication troubleshooting
-- Data integration and ELT/ETL diagnostics
-- Docker-based reproduction environments
-- Production incident debugging
-- AI-assisted support tooling
-- Operational reliability and RCA workflows
+Every project in this portfolio is built around that loop — because operational reliability isn't just about fixing incidents, it's about systematically preventing the next one.
 
 ---
 
-## 🚀 Portfolio Projects
+## ⚙️ Core Specializations
 
-### 🤖 ⭐ [AI Support Triage Engine](https://github.com/musabe/support-triage-engine)
-
-LLM-powered support triage system that automates first-pass classification of incoming support tickets:
-- Categorizes tickets and maps them to operational runbooks automatically
-- REST API + Freshdesk webhook integration
-- Full PostgreSQL audit trail for classification history
-- Live dashboard with severity breakdown and evaluation reporting
-- Structured JSON outputs for reliable downstream processing
-
-#### 📊 Evaluation & Reliability
-
-Current evaluation results:
-- 50 simulated production-style support tickets tested
-- 94% category classification accuracy
-- 78% severity classification accuracy
-- 93% average model confidence
-- 100% accuracy for HIGH severity ticket classification
-
-👉 Demonstrates AI-assisted support tooling, API design, observability, and production-grade Python workflows
-
-💡 Reduces manual ticket triage effort by automatically classifying and routing tickets with actionable next steps.
+| Domain | What I Build & Do |
+|---|---|
+| 🔴 **Incident Diagnostics** | Reproduce production failures in controlled environments; isolate failure points with structured RCA workflows |
+| 🔌 **Integration Reliability** | Debug OAuth flows, webhook delivery, retry logic, and API contract failures across SaaS integrations |
+| 🗄️ **Data Pipeline Troubleshooting** | Diagnose CDC failures, incremental sync issues, upsert conflicts, and database consistency problems |
+| 🤖 **AI-Assisted Support Tooling** | Build LLM-powered triage systems that reduce manual classification effort and escalation lag |
+| 🛠️ **Connector Supportability** | Validate connector readiness pre-deployment; surface permission, CDC, and JDBC misconfigurations early |
+| 📋 **Operational Knowledge Systems** | Convert recurring incidents into reusable runbooks, escalation playbooks, and RCA templates |
 
 ---
 
-### 🔌 [API Integration Troubleshooting Lab](https://github.com/musabe/api-integration-troubleshooting-lab)
+## 🏗️ Operational Reliability Portfolio
 
-Hands-on debugging environment for reproducing real-world integration failures:
-- OAuth authentication failures
-- Webhook delivery issues
-- Payload validation errors
-- Timeout and retry scenarios
-- Duplicate webhook handling (idempotency)
-- API contract validation
+> Six interconnected tools forming a complete operational reliability ecosystem — from pre-deployment validation through live incident response to post-incident knowledge capture.
 
-👉 Demonstrates API-level debugging, integration troubleshooting, and developer support workflows
-
-💡 Reproduces common SaaS integration failures in a controlled environment to reduce diagnosis and escalation time.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/musabe/musabe/main/operational-reliability-platform.png" alt="Operational Reliability Platform — End-to-End Toolkit for Production Reliability, Incident Management & Support Intelligence" width="900"/>
+</p>
 
 ---
 
-### 🧪 [Database Sync Debug Lab](https://github.com/musabe/database-sync-debug-lab)
+### 🤖 [AI-Powered Support Triage Engine](https://github.com/musabe/support-triage-engine) `⭐ Flagship`
 
-Production-style data pipeline simulation demonstrating real-world synchronization failures and fixes:
-- Incremental sync using compound cursor strategy (timestamp + id)
-- Upsert conflict handling for stale data prevention
-- Timestamp collision resolution to prevent missed records
-- Simulated indexing and performance degradation scenarios
-- Full debugging lifecycle documentation (issue → RCA → fix → validation)
+> LLM-assisted triage system that classifies incoming support tickets, maps them to operational runbooks, and surfaces escalation priorities automatically.
 
-👉 Demonstrates data pipeline reliability engineering and production debugging methodologies
+**Operational outcomes:**
+- **94%** category classification accuracy across 50 production-style tickets
+- **100%** accuracy on HIGH severity classification — zero missed critical tickets
+- **78%** severity classification accuracy; **93%** avg model confidence
 
-💡 Eliminated stale data and missed-record synchronization failures through reproducible debugging and validation workflows.
+**Technical depth:** Claude API · REST/webhook integration · PostgreSQL audit trail · structured JSON outputs · live severity dashboard · Freshdesk webhook pipeline
 
 ---
 
-### 🛠️ [Connector Support Toolkit](https://github.com/musabe/connector-support-toolkit)
+### 🚨 [Incident Response Simulator](https://github.com/musabe/incident-response-simulator) `⭐ Flagship`
 
-CLI diagnostic toolkit for validating database connector readiness:
-- Database connectivity validation
-- Schema and primary key verification
-- Permission diagnostics
-- Performance risk detection
-- Connector configuration analysis
+> Production failure simulation environment covering the full incident lifecycle — from failure injection through RCA to remediation runbooks.
 
-👉 Focused on developer-facing support tooling for integration and data platforms
+**Simulated failure scenarios:**
+- Auth failures · DB connection exhaustion · Queue lag · Webhook failures · API latency spikes
 
-💡 Detects connector misconfigurations before deployment, reducing production onboarding and support overhead.
+**Operational depth:** RCA workflow templates · triage dashboards · remediation runbooks · operational decision trees
+
+---
+
+### 🔌 [Connector Support Toolkit](https://github.com/musabe/connector-support-toolkit)
+
+> CLI diagnostic toolkit that validates database connector readiness before production deployment — catching misconfigurations that would otherwise surface as support escalations.
+
+**Validates:** Connectivity · permissions · schema integrity · primary key presence · CDC readiness · JDBC compatibility · performance risk signals
+
+**Output:** HTML/JSON diagnostic reports · verbose remediation guidance · Dockerized test environments
+
+---
+
+### 🌐 [API Integration Troubleshooting Lab](https://github.com/musabe/api-integration-troubleshooting-lab)
+
+> Controlled debugging environment for reproducing and diagnosing real-world SaaS integration failures.
+
+**Covers:** OAuth/auth failure patterns · webhook delivery issues · idempotency logic · payload validation · timeout and retry behavior · API contract drift
+
+---
+
+### 🗄️ [Database Sync Debug Lab](https://github.com/musabe/database-sync-debug-lab)
+
+> Production-style data pipeline simulation that reproduces and resolves real synchronization failure patterns.
+
+**Failure patterns covered:** Incremental sync failures · CDC pipeline issues · timestamp collision bugs · upsert conflicts · indexing degradation
+
+**Methodology:** Full debugging lifecycle — issue reproduction → isolation → RCA → fix → validation
 
 ---
 
 ### 📚 [Support Runbook Library](https://github.com/musabe/support-runbook-library)
 
-Structured operational knowledge base for recurring production support scenarios:
-- Root cause analysis (RCA) templates
-- Debugging workflows
-- Customer escalation playbooks
-- Incident response procedures
-- Operational troubleshooting patterns
+> Structured operational knowledge base converting recurring production incidents into reusable engineering artifacts.
 
-👉 Demonstrates operational excellence and repeatable support engineering practices
-
-💡 Converts recurring incidents into reusable troubleshooting workflows that improve consistency and reduce resolution time.
+**Includes:** RCA templates · troubleshooting decision trees · escalation playbooks · incident response procedures
 
 ---
 
-## 🧰 Tech Stack
+## 🧰 Technical Stack
 
-### Languages
-- Python
-- SQL
-- Bash
-
-### Databases
-- PostgreSQL
-- MSSQL
-
-### Infrastructure & DevOps
-- Docker
-- Docker Compose
-- Linux
-- GitHub Actions
-- Azure CI/CD
-
-### APIs & Integrations
-- REST APIs
-- Webhooks
-- OAuth
-- Bruno
-- JSON APIs
-
-### AI & Automation
-- Claude API
-- Prompt engineering
-- Structured output parsing
-- LLM-assisted operational workflows
-
-### Core Engineering Focus
-- Production debugging
-- Data pipelines
-- RCA methodologies
-- Integration reliability
-- Developer tooling
+```
+Languages        Python · SQL · Bash
+Databases        PostgreSQL · MSSQL
+Infrastructure   Docker · Docker Compose · Linux · GitHub Actions · Azure CI/CD
+APIs             REST · Webhooks · OAuth · JSON APIs
+AI / LLM         Claude API · Prompt engineering · Structured output parsing
+Observability    Custom dashboards · Audit trails · Diagnostic reporting
+```
 
 ---
 
-## 🚧 Current Status
+## 🎯 Target Roles
 
-| Project | Status |
-|---|---|
-| AI Support Triage Engine | ✅ Active |
-| API Integration Troubleshooting Lab | ✅ Active |
-| Database Sync Debug Lab | ✅ Active |
-| Connector Support Toolkit | ✅ Active |
-| Support Runbook Library | ✅ Active |
+Actively positioned for engineering-focused operational roles:
 
----
+`Platform Support Engineer` · `Reliability Engineer` · `Solutions Engineer`
+`Supportability Engineer` · `Customer Reliability Engineer` · `DevOps / SRE`
 
-## 🌍 Career Interests
-
-I'm particularly interested in engineering-focused support roles where I can:
-- improve integration reliability
-- reduce production incidents
-- automate operational workflows
-- build tooling for support and platform teams
-- work closely with engineering and developer-facing products
-
-Open to:
-- Remote opportunities
-- Hybrid roles
-- International relocation opportunities
+**What I bring:** Production debugging depth · diagnostic tooling experience · AI-assisted workflow design · strong RCA and escalation reduction track record.
 
 ---
 
-## 👤 Author
+## 🌍 Availability
 
-**Mustapha Abella**  
-Senior Technical Support Engineer  
-Focused on API integrations, production debugging, and developer-facing support engineering
+Open to **remote**, **hybrid**, and **international relocation** opportunities.
 
-👉 https://github.com/musabe
+---
+
+*[github.com/musabe](https://github.com/musabe)*
