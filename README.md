@@ -133,9 +133,16 @@ Each project targets a specific stage of that lifecycle — because production r
 
 ### 📚 [Support Runbook Library](https://github.com/musabe/support-runbook-library)
 
-> Structured operational knowledge base converting recurring production incidents into reusable engineering artifacts.
+> Structured operational knowledge base converting recurring production incidents into reusable engineering artifacts — the post-incident layer of the reliability platform.
 
-**Includes:** RCA templates · troubleshooting decision trees · escalation playbooks · incident response procedures
+**What's inside:**
+- Domain runbooks across API, auth, webhooks, billing, data, and performance
+- Three-tier escalation templates (T1→T2, T2→Engineering, Executive) with copy-paste handoff blocks and customer communication scripts
+- P0/P1 postmortem templates with full RCA structure, timeline, and action item tracking
+- Severity triage guide (P0–P3) with decision tree and SLA definitions per level
+- On-call shift guide with alert→runbook index and handoff templates
+- Tool integration guides for PagerDuty, Slack, Linear, and GitHub
+- CI workflow that lints runbooks for metadata completeness and scans for PII on every PR
 
 ---
 
