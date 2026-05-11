@@ -1,27 +1,27 @@
 # Mustapha Abella
 
-> **Operational Reliability & Platform Support Engineer**
-> Diagnosing production failures · Building diagnostic tooling · Reducing escalation time
+> **Operational Reliability & Observability Engineer**
+> Building observable systems that detect, correlate, and remediate production failures
 
-[![Specialization](https://img.shields.io/badge/specialization-Operational%20Reliability-0A66C2?style=flat-square&logo=databricks&logoColor=white)](https://github.com/musabe)
-[![Focus](https://img.shields.io/badge/focus-Incident%20Diagnostics%20%7C%20Integration%20Reliability-1DB954?style=flat-square)](https://github.com/musabe)
-[![Stack](https://img.shields.io/badge/stack-Python%20%7C%20PostgreSQL%20%7C%20Docker-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/musabe)
-[![AI Tooling](https://img.shields.io/badge/AI--assisted-Support%20Triage-FF6B35?style=flat-square&logo=anthropic&logoColor=white)](https://github.com/musabe)
+[![Specialization](https://img.shields.io/badge/specialization-Observability%20%7C%20Reliability%20Engineering-0A66C2?style=flat-square&logo=databricks&logoColor=white)](https://github.com/musabe)
+[![Focus](https://img.shields.io/badge/focus-Telemetry%20%7C%20Incident%20Detection%20%7C%20Operational%20Diagnostics-1DB954?style=flat-square)](https://github.com/musabe)
+[![Stack](https://img.shields.io/badge/stack-Python%20%7C%20Go%20%7C%20Prometheus%20%7C%20OpenTelemetry-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/musabe)
+[![Observability](https://img.shields.io/badge/observability-Grafana%20%7C%20Loki%20%7C%20Alertmanager-FF6B35?style=flat-square&logo=grafana&logoColor=white)](https://github.com/musabe)
 [![Status](https://img.shields.io/badge/portfolio-actively%20building-brightgreen?style=flat-square)](https://github.com/musabe)
 
 ---
 
 ## 🧭 Engineering Identity
 
-I sit at the intersection of **platform engineering** and **operational support** — building the tooling, workflows, and diagnostics that keep production systems reliable and support teams scalable.
+I build **observable operational systems** — the instrumentation, diagnostics, and reliability tooling that allow engineering teams to detect failures before users do, correlate signals across distributed systems, and remediate incidents with precision.
 
-My work is rooted in a core methodology:
+My portfolio spans the full reliability lifecycle:
 
 ```
-Reproduce the failure → Isolate the root cause → Validate the fix → Document for reuse
+Validate → Observe → Detect → Diagnose → Triage → Remediate
 ```
 
-Every project in this portfolio is built around that loop — because operational reliability isn't just about fixing incidents, it's about systematically preventing the next one.
+Each project targets a specific stage of that lifecycle — because production reliability is an engineered system, not a reactive process.
 
 ---
 
@@ -29,22 +29,53 @@ Every project in this portfolio is built around that loop — because operationa
 
 | Domain | What I Build & Do |
 |---|---|
-| 🔴 **Incident Diagnostics** | Reproduce production failures in controlled environments; isolate failure points with structured RCA workflows |
+| 📡 **Observability Engineering** | Deploy and instrument full telemetry stacks — Prometheus, Grafana, Loki, OpenTelemetry — with correlated metrics, logs, and traces |
+| 🔴 **Incident Detection & Response** | Reproduce production failures in controlled environments; design alert routing, SLO monitoring, and structured RCA workflows |
 | 🔌 **Integration Reliability** | Debug OAuth flows, webhook delivery, retry logic, and API contract failures across SaaS integrations |
-| 🗄️ **Data Pipeline Troubleshooting** | Diagnose CDC failures, incremental sync issues, upsert conflicts, and database consistency problems |
+| 🗄️ **Data Pipeline Troubleshooting** | Diagnose CDC failures, incremental sync issues, upsert conflicts, and replication lag across database connectors |
 | 🤖 **AI-Assisted Support Tooling** | Build LLM-powered triage systems that reduce manual classification effort and escalation lag |
-| 🛠️ **Connector Supportability** | Validate connector readiness pre-deployment; surface permission, CDC, and JDBC misconfigurations early |
+| 🛠️ **Connector Supportability** | Validate connector readiness pre-deployment; surface permission, CDC, and JDBC misconfigurations before they reach production |
 | 📋 **Operational Knowledge Systems** | Convert recurring incidents into reusable runbooks, escalation playbooks, and RCA templates |
 
 ---
 
-## 🏗️ Operational Reliability Portfolio
+## 🏗️ Operational Reliability Platform
 
-> Six interconnected tools forming a complete operational reliability ecosystem — from pre-deployment validation through live incident response to post-incident knowledge capture.
+> Seven interconnected tools forming a complete reliability engineering ecosystem — from pre-deployment validation through distributed observability to AI-assisted triage and post-incident knowledge capture.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/musabe/musabe/main/operational-reliability-platform.png" alt="Operational Reliability Platform — End-to-End Toolkit for Production Reliability, Incident Management & Support Intelligence" width="900"/>
+  <img src="https://raw.githubusercontent.com/musabe/musabe/main/operational-reliability-platform.png" alt="Operational Reliability Platform — End-to-End Observability, Incident Management & Support Intelligence" width="900"/>
 </p>
+
+---
+
+## 🔄 Reliability Engineering Lifecycle
+
+| Stage | Capability | Repository |
+|---|---|---|
+| ✅ **Validate** | Pre-deployment connector readiness, permission checks, CDC validation | `connector-support-toolkit` |
+| 📡 **Observe** | Distributed telemetry — metrics, logs, traces, SLO monitoring, alert routing | `observability-control-plane` |
+| 🚨 **Detect** | Failure injection, anomaly simulation, alerting pipelines | `incident-response-simulator` |
+| 🔍 **Diagnose** | Integration failure reproduction, CDC debugging, sync issue isolation | `api-troubleshooting-lab` · `database-sync-debug-lab` |
+| 🤖 **Triage** | AI-assisted ticket classification, escalation prioritization, severity routing | `support-triage-engine` |
+| 📚 **Remediate** | Structured runbooks, RCA templates, escalation playbooks | `support-runbook-library` |
+
+---
+
+## 🚀 Flagship Projects
+
+### 📡 [Observability Control Plane](https://github.com/musabe/observability-control-plane) `⭐ Flagship`
+
+> Distributed observability platform providing full-stack telemetry correlation across metrics, logs, and traces — the operational backbone of the reliability ecosystem.
+
+**Platform capabilities:**
+- **Metrics** — Prometheus scraping, alerting rules, SLO/SLA compliance tracking
+- **Logs** — Loki aggregation with structured log correlation across services
+- **Traces** — OpenTelemetry distributed tracing with end-to-end request visibility
+- **Alerting** — Alertmanager routing with severity-based escalation pipelines
+- **Dashboards** — Grafana operational panels with cross-signal correlation views
+
+**Technical depth:** Prometheus · Grafana · Loki · OpenTelemetry · Alertmanager · Docker Compose · Go · RabbitMQ · Redis · SLO instrumentation
 
 ---
 
@@ -63,12 +94,12 @@ Every project in this portfolio is built around that loop — because operationa
 
 ### 🚨 [Incident Response Simulator](https://github.com/musabe/incident-response-simulator) `⭐ Flagship`
 
-> Production failure simulation environment covering the full incident lifecycle — from failure injection through RCA to remediation runbooks.
+> Production failure simulation platform covering the full incident lifecycle — from failure injection through telemetry signal generation to RCA and remediation runbooks.
 
 **Simulated failure scenarios:**
 - Auth failures · DB connection exhaustion · Queue lag · Webhook failures · API latency spikes
 
-**Operational depth:** RCA workflow templates · triage dashboards · remediation runbooks · operational decision trees
+**Operational depth:** Failure injection scripts · RCA workflow templates · triage dashboards · remediation runbooks · operational decision trees
 
 ---
 
@@ -111,24 +142,26 @@ Every project in this portfolio is built around that loop — because operationa
 ## 🧰 Technical Stack
 
 ```
-Languages        Python · SQL · Bash
-Databases        PostgreSQL · MSSQL
+Languages        Python · Go · SQL · Bash
+Databases        PostgreSQL · MSSQL · Redis
+Messaging        RabbitMQ
+Observability    Prometheus · Grafana · Loki · OpenTelemetry · Alertmanager
 Infrastructure   Docker · Docker Compose · Linux · GitHub Actions · Azure CI/CD
 APIs             REST · Webhooks · OAuth · JSON APIs
 AI / LLM         Claude API · Prompt engineering · Structured output parsing
-Observability    Custom dashboards · Audit trails · Diagnostic reporting
+Reporting        Custom dashboards · Audit trails · HTML/JSON diagnostic reports
 ```
 
 ---
 
 ## 🎯 Target Roles
 
-Actively positioned for engineering-focused operational roles:
+Positioned for observability, reliability, and operational engineering roles:
 
-`Platform Support Engineer` · `Reliability Engineer` · `Solutions Engineer`
-`Supportability Engineer` · `Customer Reliability Engineer` · `DevOps / SRE`
+`Reliability Engineer` · `Observability Engineer` · `Supportability Engineer`
+`Platform Reliability Engineer` · `Customer Reliability Engineer` · `SRE / DevOps`
 
-**What I bring:** Production debugging depth · diagnostic tooling experience · AI-assisted workflow design · strong RCA and escalation reduction track record.
+**What I bring:** Full-stack observability experience · production debugging depth · diagnostic tooling at scale · AI-assisted workflow design · strong RCA and escalation reduction track record.
 
 ---
 
